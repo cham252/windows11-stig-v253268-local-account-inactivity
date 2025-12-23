@@ -39,8 +39,7 @@ This screenshot shows the legacy ADSI-based STIG check executing without errors 
 ---
 
 ### 2. STIG Viewer Reference (WN11-00-000065)
-![STIG Viewer Reference](evidence/02-stig-viewer-reference.jpeg)
-
+(https://github.com/cham252/windows11-stig-v253268-local-account-inactivity/blob/main/02-stig-viewer-reference.jpeg)
 This screenshot shows the official STIG Viewer requirement and the legacy check method published by DISA for identifying inactive local accounts.
 
 ---
