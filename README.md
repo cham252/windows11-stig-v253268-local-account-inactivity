@@ -32,21 +32,19 @@ This project uses **Get-LocalUser**, which auditors accept as authoritative.
 ## Evidence Screenshots
 
 ### 1. Legacy ADSI-Based STIG Check (Unreliable on Windows 11)
-(https://github.com/cham252/windows11-stig-v253268-local-account-inactivity/blob/main/01-adsi-check-attempt.jpeg)
-
+![Legacy ADSI Check](01-adsi-check-attempt.jpeg)
 This screenshot shows the legacy ADSI-based STIG check executing without errors but returning no usable account data due to deprecated `LastLogin` behavior on Windows 11.
 
 ---
 
 ### 2. STIG Viewer Reference (WN11-00-000065)
-(https://github.com/cham252/windows11-stig-v253268-local-account-inactivity/blob/main/02-stig-viewer-reference.jpeg)
+![STIG Viewer Reference](02-stig-viewer-reference.jpeg)
 This screenshot shows the official STIG Viewer requirement and the legacy check method published by DISA for identifying inactive local accounts.
 
 ---
 
 ### 3. Authoritative Compliance Evidence Using Get-LocalUser
-![Get-LocalUser Evidence](evidence/03-get-localuser-evidence.jpeg)
-
+![Get-LocalUser Evidence](03-get-localuser-evidence.jpeg)
 This screenshot confirms:
 - Built-in accounts are disabled
 - Only one enabled local account exists
