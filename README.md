@@ -32,7 +32,7 @@ This project uses **Get-LocalUser**, which auditors accept as authoritative.
 ## Evidence Screenshots
 
 ### 1. Legacy ADSI-Based STIG Check (Unreliable on Windows 11)
-![Legacy ADSI Check](evidence/01-adsi-check-attempt.jpeg)
+(https://github.com/cham252/windows11-stig-v253268-local-account-inactivity/blob/main/01-adsi-check-attempt.jpeg)
 
 This screenshot shows the legacy ADSI-based STIG check executing without errors but returning no usable account data due to deprecated `LastLogin` behavior on Windows 11.
 
